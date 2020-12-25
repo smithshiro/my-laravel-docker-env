@@ -30,6 +30,7 @@ services:
     tty: true
     volumes:
       - ./project:/var/www/html/project
+    working_dir: /var/www/html/project
   mysql:
     image: mysql:8
     environment:
