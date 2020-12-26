@@ -32,7 +32,7 @@ services:
       - ./project:/var/www/html/project
     working_dir: /var/www/html/project
   mysql:
-    image: mysql:8
+    image: mysql:5.7
     environment:
       MYSQL_DATABASE: homestead
       MYSQL_USER: homestead
